@@ -6,7 +6,7 @@ import { ProjectCard } from "@/components/blocks/project-card";
 import { GitHubIcon, XIcon } from "@/components/blocks/social-icons";
 import { SocialLink } from "@/components/blocks/social-link";
 import { careerItems } from "@/lib/utils";
-import { getGithubInfo, getXInfo } from "@/server/thirdparty";
+import { getGithubInfo } from "@/server/thirdparty";
 import type { Metadata } from "next";
 import Link from "next/link";
 
