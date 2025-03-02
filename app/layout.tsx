@@ -14,17 +14,17 @@ const LexendFont = Lexend({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ned.im"),
+  metadataBase: new URL("https://canerucar.tech"),
   title: {
-    default: "Nedim Arabacı",
-    template: "Nedim Arabacı | %s",
+    default: "Caner Uçar",
+    template: "Caner Uçar | %s",
   },
   description: "Developer, software manager, and creator.",
   openGraph: {
-    title: "Nedim Arabacı",
+    title: "Caner Uçar",
     description: "Developer, software manager, and creator.",
-    url: "https://ned.im",
-    siteName: "Nedim Arabacı",
+    url: "https://canerucar.tech",
+    siteName: "Caner Uçar",
     locale: "en_US",
     type: "website",
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Nedim Arabacı",
+    title: "Caner Uçar",
     card: "summary_large_image",
   },
   verification: {

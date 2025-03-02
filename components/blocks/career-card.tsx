@@ -6,7 +6,7 @@ export function CareerCard({ item }: { item: (typeof careerItems)[number] }) {
       <div className="mb-2 flex items-center justify-between text-xs text-muted-foreground">
         <span>{item.location}</span>{" "}
         <span>
-          {item.from} — {item.to || "Present"}
+          {item.from} — {item.to}
         </span>
       </div>
       <div className="mb-3 flex flex-col items-start justify-between gap-2 text-balance text-lg sm:flex-row sm:items-center">
@@ -15,10 +15,11 @@ export function CareerCard({ item }: { item: (typeof careerItems)[number] }) {
           {item.company.name}
         </div>
       </div>
-      <div className="flex flex-col gap-2 text-sm leading-normal sm:gap-3 sm:text-base text-muted-foreground">
+      <div className="flex flex-col gap-2 text-sm leading-normal sm:gap-3 sm:text-base text-muted-foreground whitespace-pre-line">
         {item.description}
       </div>
 
+      {/* 
       {item.subRoles?.length && (
         <blockquote className="mt-5 text-sm text-muted-foreground border-l-[3px] border-border/70 rounded-l-lg pl-4">
           {item.subRoles.map((role, index) => (
@@ -39,6 +40,7 @@ export function CareerCard({ item }: { item: (typeof careerItems)[number] }) {
           ))}
         </blockquote>
       )}
+      */}
     </div>
   );
 }

@@ -11,7 +11,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 const currentYear = new Date().getFullYear();
-const lastPosition = currentYear - careerItems[careerItems.length - 1].from;
+const lastPosition = currentYear - 2019;
 
 export const metadata: Metadata = {
   title: "Readme",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 export default async function Readme() {
   const githubResponse = await getGithubInfo();
-  const xResponse = await getXInfo();
+  //const xResponse = await getXInfo();
 
   const last3weeks =
     githubResponse.data.viewer.contributionsCollection.contributionCalendar.weeks.slice(
@@ -30,6 +30,7 @@ export default async function Readme() {
     .slice(-14);
 
   const githubFollowers = githubResponse.data.viewer.followers.totalCount;
+  console.log('githubFollowera', githubFollowers);
   const githubStars = githubResponse.data.viewer.repositories.nodes.reduce(
     (acc, repo) => acc + repo.stargazerCount,
     0
@@ -39,9 +40,9 @@ export default async function Readme() {
     <>
       <Container className="mt-9">
         <h1 className="tracking-tight text-4xl sm:text-5xl">
-          Nedim Arabacı
+          Caner Uçar
           <span className="text-muted-foreground font-title font-extralight text-3xl sm:text-4xl block text-balance">
-            Developer & Software manager
+            Frontend Developer
           </span>
         </h1>
         <div className="pro text-muted-foreground text-balance">
@@ -49,31 +50,30 @@ export default async function Readme() {
             Hi <span className="text-xl">👋🏻</span>, I&apos;m currently working
             at{" "}
             <Link
-              href="https://birdefter.com"
+              href="https://www.linktera.com"
               target="_blank"
               rel="nofollow noreferrer"
             >
-              @Defter
+              @Linktera
             </Link>
-            , a company that specializes in building SaaS CRM products.
+            , a company specializing in developing banking applications and financial products
           </p>
           <p>
-            At Defter, my responsibility is to oversee the development and
-            deployment of software solutions that are not only efficient and
-            effective but also customized to meet our clients&apos; specific
-            business requirements.
+            At Linktera, my responsibility is to develop the project with frontend technologies and to assist the team.
+            Our current project is to redevelop an old bank project with the latest React technology.
           </p>
         </div>
         <div className="mt-6 flex gap-6">
+          {/* 
           <SocialLink
-            href="https://x.com/needim"
+            href="https://x.com/canerucar34"
             aria-label="Follow on X"
             count={xResponse.data?.public_metrics?.followers_count}
             label="followers"
             icon={XIcon}
-          />
+          />*/}
           <SocialLink
-            href="https://github.com/needim"
+            href="https://github.com/canerucar"
             aria-label="Follow on GitHub"
             icon={GitHubIcon}
             count={githubFollowers}
@@ -87,14 +87,16 @@ export default async function Readme() {
           Most recent projects and contributions.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          {/*
           <ProjectCard
             title="gider.im"
             icon={<GiderimLogo className="size-10" />}
             description="Privacy focused income & expense tracking app."
             link="https://gider.im"
           />
+          */}
           <OpenSourceCard
-            link="https://github.com/needim"
+            link="https://github.com/canerucar"
             contributions={last14days}
             repoStats={githubResponse.data.viewer.repositories.nodes}
             totalStars={githubStars}

@@ -36,6 +36,7 @@ export const navItems = [
 ];
 
 export const careerItems = [
+  /* 
   {
     from: 2021,
     to: null,
@@ -56,68 +57,128 @@ export const careerItems = [
       },
     ],
   },
+  */
+  
   {
-    from: 2018,
-    to: 2018,
-    title: "Full Stack Developer",
-    company: { name: "90Pixel", url: "https://90pixel.com" },
-    location: "Izmir, Turkey",
-    description:
-      "I worked as a Full Stack Developer at 90Pixel for two months, after which I accepted an offer from Defter and relocated to Montenegro.",
+    from: '2025 Şubat',
+    to: 'Present',
+    title: "Senior Frontend Developer",
+    company: { name: "Linkera", url: "" },
+    location: "Istanbul, Turkey",
+    description: [
+    ].join("\n"),
   },
   {
-    from: 2017,
-    to: 2018,
-    title: "Full Stack Developer",
-    company: { name: "Freelancer", url: null },
-    location: "Izmir, Turkey",
-    description:
-      "I took a gap year to pursue my passion for freelance work. This experience allowed me to gain invaluable skills and provided the opportunity to work with a diverse range of clients.",
+    from: '2024 Ağustos',
+    to: '2025 Ocak',
+    title: "Senior Software Engineer",
+    company: { name: "carvak.com", url: "" },
+    location: "Istanbul, Turkey",
+    description: [
+      "We are the Turkish brand of Kavak, one of the world's largest second-hand car buying and selling platforms.",
+      "",
+      "We are developing araba.com, carvak.com and in-house backoffice projects. We manage them in pairs with frontend and backend teams in 2-week sprints. During these processes, I had the chance to be more involved in the architectural side of the projects.",
+      "",
+      "HTML, CSS, SASS, JavaScript, React, Vue, Angular, TypeScript, Nextjs, Tailwidcss, Docker, Jira, Gitlab, Github, Git, Figma, ArgoCD",
+    ].join("\n"),
   },
   {
-    from: 2015,
-    to: 2017,
-    title: "Co Founder",
-    company: { name: "whodidthis.io", url: null },
-    location: "Izmir, Turkey",
-    description:
-      "I created usable web interfaces, front-end coding, and almost everything required to build a startup. After sharing this entrepreneurship passion for nearly 2 years, sadly my partners and I had to say goodbye to our lovely startup for now.",
-  },
-  {
-    from: 2015,
-    to: 2015,
+    from: '2022 Kasım',
+    to: '2024 Ağustos',
     title: "Frontend Developer",
-    company: { name: "Alegra Digital", url: null },
+    company: { name: "n11.com", url: "" },
+    location: "Istanbul, Turkey",
+    description: [
+      "n11.com is an open market e-commerce platform operating in Turkey and providing business-to-consumer sales services via the Internet.",
+      "",
+      "worked project",
+      "n11.com, m.n11.com, so.n11.com, magazadestek.n11.com",
+      "",
+      "HTML, CSS, SASS, JavaScript, jQuery, AJAX, React JS, Vue JS, Jira, Bitbucket, Figma, Git",
+    ].join("\n"),
+  },
+  {
+    from: '2022 Temmuz',
+    to: '2022 Kasım',
+    title: "Frontend Developer",
+    company: { name: "Etstur", url: "" },
+    location: "Istanbul, Turkey",
+    description: [
+      "I took part in the HotelAgent and Operation teams within Etstur. I took part in the development of hotels' websites, reservation systems, and the admin panels they use. I had the opportunity to work on the bug fix and features development side of the projects.",
+      "",
+      "HTML, CSS, SASS, Bootstrap, JavaScript, jQuery, AJAX, Jira, Bitbucket, Figma, Git",
+    ].join("\n"),
+  },
+  {
+    from: '2022 Ocak',
+    to: '2022 Temmuz',
+    title: "Frontend Developer",
+    company: { name: "Appcent", url: null },
+    location: "Istanbul, Turkey",
+    description: [
+      "Appcent is a company bringing together developers, designers, trainers, curious minds, and team players who aim to transform businesses digitally with the help of the latest technology and our expertise.",
+      "",
+      "worked project : pinaronline.com",
+      "",
+      "React, Redux Toolkit, Nextjs, Git, Figma, Trello, Jira, Bitbucket",
+    ].join("\n"),
+  },
+  {
+    from: '2020 Ekim',
+    to: '2022 Ocak',
+    title: "Frontend Developer",
+    company: { name: "Akinon", url: null },
+    location: "Istanbul, Turkey",
+    description: [
+      "Akinon is a global software development company that provides state-of-the-art omnichannel solutions for the top retail brands worldwide.",
+      "Some worked projects : Samsung, Tefal, Converse, Koton, Flo, LCW, U.S. POLO, Damat, Under Armour; for more: https://www.akinon.com/customer",
+      "",
+      "HTML (Jinja (template engine)), CSS (SASS, Bootstrap, Tailwind CSS), JavaScript (jQuery, Web Components), Git, Bitbucket, Jira, Zeplin",
+    ].join('\n'),
+  },
+  {
+    from: '2020 Şubat',
+    to: '2020 Ekim',
+    title: "Frontend Developer & MW Administrator",
+    company: { name: "PrimeIT Bilişim A.Ş", url: null },
+    location: "Istanbul, Turkey",
+    description: [
+      "I made developments on the frontend side of the database analysis project to be used in the MW admin management processes of various banks and within the banks themselves.",
+      "",
+
+      "- Html, CSS, JavaScript, Node.js, Github, Bitbucket, MySQL"
+    ].join("\n"),
+  },
+  {
+    from: '2019 Kasım',
+    to: '2020 Ocak',
+    title: "Intern - Software Developer",
+    company: { name: "Skyland A.Ş", url: "" },
+    location: "Istanbul, Turkey",
+    description: [
+      "It's my university professor's company. Here we carry out frontend and backend mobile transformations for large retail companies.",
+      "",
+    
+      "- iOS (Swift), Java (Spring Boot), Git, Bitbucket",
+    ].join('\n'),
+  },
+  {
+    from: '2017 Ağustos',
+    to: '2017 Eylül',
+    title: "Intern - Network System Technician",
+    company: { name: "Seri Bilgi Teknolojileri", url: "" },
     location: "Istanbul, Turkey",
     description:
-      "I have 10 months of hands-on experience as a front-end developer in Alegra Digital. I quit my job there to follow my dreams: whodidthis.io",
+      "During my short-term university internship, I worked in the company's network system unit.",
   },
   {
-    from: 2012,
-    to: 2015,
-    title: "Full Stack Developer",
-    company: { name: "Efabrika", url: "https://efabrika.com" },
+    from: '2014 Eylül',
+    to: '2015 Haziran',
+    title: "Intern - Network System Technician",
+    company: { name: "Aras Kargo", url: null },
     location: "Istanbul, Turkey",
     description:
-      "I provided front end & back-end development for reputable clients such as Anadolu Agency, Turkish Airlines, etc. My responsibilities included UI, UX, and API development.",
-  },
-  {
-    from: 2012,
-    to: 2012,
-    title: "Full Stack Developer",
-    company: { name: "Atölye15", url: "https://atolye15.com" },
-    location: "Izmir, Turkey",
-    description:
-      "After working as a full stack developer for an Izmir-based company; Atölye15, I accepted the great offer from Efabrika and moved to Istanbul.",
-  },
-  {
-    from: 2010,
-    to: 2012,
-    title: "Full Stack Developer",
-    company: { name: "LMS", url: null },
-    location: "Izmir, Turkey",
-    description:
-      "I provided front end & back-end development for the company's Learning Management System for about 2 years.",
+      "I did my internship in the system and network unit of the headquarters for about 1 year.",
   },
 ];
 
@@ -146,698 +207,90 @@ const changelogItems: Array<{
   photos?: Array<{ src: string; variant: "1x1" | "4x3" | "4x5" }>;
 }> = [
   {
-    date: "2024-11-26",
-    event: "Visit to Denmark & Sweden",
-    title: "Copenhagen & Malmö",
-    icon: "🇩🇰",
-    dateFormatOptions: dateFormat.month,
-    photos: [...new Array(8)].map((_, index) => ({
-      src: `/changelog/copenhagen-malmo/${index + 1}.png`,
-      variant: "4x5" as const,
-    })),
-  },
-  {
-    date: "2024-06-02",
-    event: "100 upvotes",
-    title: "on Peerlist",
-    description: "gider.im is on the top of the list.",
-    icon: "💯",
-    dateFormatOptions: dateFormat.day,
-  },
-  {
-    date: "2024-05-27",
-    event: "Lauched gider.im",
-    title: "Public beta",
-    description: "gider.im is a personal finance tracker.",
-    icon: "🚀",
-    dateFormatOptions: dateFormat.day,
-  },
-  {
-    date: "2024-07-02",
-    event: "Visit to Spain",
-    title: "Begur & Barcelona",
-    icon: "🇪🇸",
-    dateFormatOptions: dateFormat.month,
-    photos: [
-      {
-        src: "/changelog/begur.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/begur-2.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/barcelona.png",
-        variant: "4x5",
-      },
-    ],
-  },
-  {
-    date: "2024-07-01",
-    event: "Visit to Portugal",
-    title: "Madeira Island",
-    icon: "🇵🇹",
-    dateFormatOptions: dateFormat.month,
-    photos: [
-      {
-        src: "/changelog/madeira.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/madeira-2.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/madeira-3.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/madeira-4.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/madeira-5.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/madeira-6.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/madeira-7.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/madeira-8.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/madeira-9.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/madeira-10.png",
-        variant: "4x5",
-      },
-    ],
-  },
-  {
-    date: "2024-07-01",
-    event: "Visit to Portugal",
-    title: "Lisboa, Porto",
-    icon: "🇵🇹",
-    dateFormatOptions: dateFormat.month,
-    photos: [
-      {
-        src: "/changelog/lisboa.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/lisboa-2.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/porto.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/porto-2.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/porto-3.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/porto-4.png",
-        variant: "4x5",
-      },
-    ],
-  },
-  {
-    date: "2024-06-15",
-    event: "Visit to Greece",
-    title: "Thassos Island",
-    icon: "🇬🇷",
-    dateFormatOptions: dateFormat.day,
-    photos: [
-      {
-        src: "/changelog/thassos.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/thassos-2.png",
-        variant: "4x5",
-      },
-    ],
-  },
-  {
-    date: "2023-11-01",
-    event: "Visit to Greece",
-    title: "Kavala",
-    icon: "🇬🇷",
-    dateFormatOptions: dateFormat.month,
-    photos: [
-      {
-        src: "/changelog/kavala  4x5.png",
-        variant: "4x5",
-      },
-    ],
-  },
-  {
-    date: "2023-08-01",
-    event: "Visit to Greece",
-    title: "Samos Island",
-    icon: "🇬🇷",
-    dateFormatOptions: dateFormat.month,
-    photos: [
-      {
-        src: "/changelog/samos  4x5.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/samos-3  4x5.png",
-        variant: "4x5",
-      },
-    ],
-  },
-  {
-    date: "2023-07-04",
-    event: "Visit to France",
-    title: "Colmar",
-    icon: "🇫🇷",
-    dateFormatOptions: dateFormat.month,
-  },
-  {
-    date: "2023-07-04",
-    event: "Visit to Switzerland",
-    title: "Zurich, Bern, Schaffhausen",
-    icon: "🇨🇭",
-    dateFormatOptions: dateFormat.day,
-    photos: [
-      {
-        src: "/changelog/scaffahaouseasesan  4x5.png",
-        variant: "4x5",
-      },
-    ],
-  },
-  {
-    date: "2023-04-21",
-    event: "Visit to Greece",
-    title: "Chios Island",
-    description: "Big family trip.",
-    icon: "🇬🇷",
-    dateFormatOptions: dateFormat.day,
-    photos: [
-      {
-        src: "/changelog/chios.png",
-        variant: "1x1",
-      },
-      {
-        src: "/changelog/chios-2.png",
-        variant: "1x1",
-      },
-    ],
-  },
-  {
-    date: "2022-07-08",
-    event: "Visit to Egypt",
-    title: "Sharm El-Sheikh",
-    description: "Food was terrible for me.",
-    icon: "🇪🇬",
-    dateFormatOptions: dateFormat.day,
-    photos: [
-      {
-        src: "/changelog/egypt-1.png",
-        variant: "1x1",
-      },
-      {
-        src: "/changelog/egypt-2.png",
-        variant: "1x1",
-      },
-      {
-        src: "/changelog/egypt-3.png",
-        variant: "1x1",
-      },
-      {
-        src: "/changelog/egypt-4 4x5.png",
-        variant: "4x5",
-      },
-    ],
-  },
-  {
-    date: "2021-06-16",
-    event: "Honeymoon",
-    title: "Zanzibar",
-    description: "We went to Zanzibar for our honeymoon.",
-    icon: "🏝️",
-    dateFormatOptions: dateFormat.day,
-    photos: [
-      {
-        src: "/changelog/zanzibar-1.png",
-        variant: "1x1",
-      },
-      {
-        src: "/changelog/zanzibar-2  4x5.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/zanzibar-3.png",
-        variant: "1x1",
-      },
-      {
-        src: "/changelog/zanzibar-4.png",
-        variant: "1x1",
-      },
-    ],
-  },
-  {
-    date: "2024-04-01",
-    event: "Visit to Germany",
-    title: "Konstanz",
-    icon: "🇩🇪",
-    dateFormatOptions: dateFormat.month,
-    photos: [
-      {
-        src: "/changelog/konstanz.jpg",
-        variant: "4x5",
-      },
-    ],
-  },
-  {
-    date: "2024-04-01",
-    event: "Visit to France",
-    title: "Strasbourg",
-    icon: "🇫🇷",
-    dateFormatOptions: dateFormat.month,
-    photos: [
-      {
-        src: "/changelog/strasbourg  4x5.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/strasbourg2  4x5.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/strasbourg3  4x5.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/strasbourg4  4x5.png",
-        variant: "4x5",
-      },
-    ],
-  },
-  {
-    date: "2024-04-01",
-    event: "Visit to Switzerland",
-    title: "Lucerne",
-    icon: "🇨🇭",
-    dateFormatOptions: dateFormat.month,
-    photos: [
-      {
-        src: "/changelog/lucerne  4x5.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/pilatus.png",
-        variant: "1x1",
-      },
-      {
-        src: "/changelog/pilatus-2.png",
-        variant: "1x1",
-      },
-    ],
-  },
-  {
-    date: "2024-02-01",
-    event: "Visit to Italy",
-    title: "Milan, Verona",
-    icon: "🇮🇹",
-    dateFormatOptions: dateFormat.month,
-    photos: [
-      {
-        src: "/changelog/verona  4x5.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/milano  4x5.png",
-        variant: "4x5",
-      },
-    ],
-  },
-  {
-    date: "2023-12-01",
-    event: "Visit to Hungary",
-    title: "Budapest",
-    description: "Beautiful city. I loved it.",
-    icon: "🇭🇺",
-    dateFormatOptions: dateFormat.month,
-    photos: [
-      {
-        src: "/changelog/budapest 4x5.png",
-        variant: "4x5",
-      },
-    ],
-  },
-  {
-    date: "2023-02-01",
-    event: "Visit to Checz",
-    title: "Prague",
-    description: "My dream city.",
-    icon: "🇨🇿",
-    dateFormatOptions: dateFormat.month,
-    photos: [
-      {
-        src: "/changelog/prague 4x5.png",
-        variant: "4x5",
-      },
-      {
-        src: "/changelog/prague-2.png",
-        variant: "1x1",
-      },
-      {
-        src: "/changelog/prague-3.png",
-        variant: "1x1",
-      },
-      {
-        src: "/changelog/prague-4.png",
-        variant: "1x1",
-      },
-    ],
-  },
-  {
-    date: "2023-09-08",
-    event: "Become an uncle",
-    title: "His name is Atlas",
-    description: "My sister gave birth to a handsome boy.",
-    icon: "👶🏻",
-    dateFormatOptions: dateFormat.day,
-    photos: [
-      {
-        src: "/changelog/atlas 4x5.png",
-        variant: "4x5",
-      },
-    ],
-  },
-  {
-    date: "2023-05-06",
-    event: "Third car",
-    title: "Opel Grandland (2023 model)",
-    icon: "🚗",
-    dateFormatOptions: dateFormat.day,
-  },
-  {
-    date: "2022-07-10",
-    event: "First squba diving",
-    title: "It was amazing!",
-    description: "I did my first squba diving in Sharm El-Sheikh, Egypt.",
-    icon: "🤿",
-    dateFormatOptions: dateFormat.day,
-    photos: [
-      {
-        src: "/changelog/scuba.png",
-        variant: "1x1",
-      },
-    ],
-  },
-  {
-    date: "2019-10-01",
-    event: "First tattoo",
-    title: "On my right arm",
-    icon: "🎨",
-    dateFormatOptions: dateFormat.month,
-    photos: [
-      {
-        src: "/changelog/tattoo  4x5.png",
-        variant: "4x5",
-      },
-    ],
-  },
-  {
-    date: "2022-05-23",
-    event: "Second car",
-    title: "Peugeot 208 (2021 model)",
-    icon: "🚗",
-  },
-  {
-    date: "2014-01-01",
-    event: "First HTML5 game",
-    title: "Pixel Race Game",
-    description: "I created my first HTML5 game.",
-    icon: "🎮",
-    photos: [
-      {
-        src: "/changelog/pixel-race.png",
-        variant: "1x1",
-      },
-    ],
-  },
-  {
-    date: "2015-06-01",
-    event: "First pet",
-    title: "Mısır",
-    icon: "🐈",
-    dateFormatOptions: dateFormat.month,
-    photos: [
-      {
-        src: "/changelog/pet.png",
-        variant: "1x1",
-      },
-    ],
-  },
-  {
-    date: "2010-05-24",
-    event: "Lost my dad",
-    title: "It was a hard time for me.",
-    description: "Show your love to your parents while you can.",
-    icon: "🕯️",
-    dateFormatOptions: dateFormat.day,
-    photos: [
-      {
-        src: "/changelog/dad.jpeg",
-        variant: "1x1",
-      },
-    ],
-  },
-  {
-    date: "2008-11-01",
-    event: "Joined Twitter",
-    title: "I didn't know what I was doing",
-    icon: "🐦",
-    dateFormatOptions: dateFormat.month,
-  },
-  {
-    date: "2020-09-01",
+    date: "2023-08-05",
     event: "First car",
-    title: "BMW 116 (2009 model)",
+    title: "Fiat Egea Hatchback red (2019 model)",
     icon: "🚗",
     dateFormatOptions: dateFormat.month,
+    photos: [
+      {
+        src: "/changelog/first-car-1.jpg",
+        variant: "4x5",
+      },
+      {
+        src: "/changelog/first-car-2.jpg",
+        variant: "4x5",
+      },
+    ],
   },
   {
     date: "2024-05-06",
     event: "New website",
-    title: "ned.im",
+    title: "canerucar.tech",
     description: "Finally, I have published own personal website.",
     icon: "🚀",
     dateFormatOptions: dateFormat.day,
   },
   {
-    date: "2024-03-01",
-    event: "Bought a house",
-    title: "I bought a house in Antalya, Turkey",
-    description: "First big achievement in my life.",
-    icon: "🏠",
-    dateFormatOptions: dateFormat.month,
-  },
-  {
-    date: "2021-06-12",
-    event: "Married",
-    title: "I got married",
-    description: "I married the love of my life.",
-    icon: "💍",
-    dateFormatOptions: dateFormat.day,
-    photos: [
-      {
-        src: "/changelog/nikah 4x5.png",
-        variant: "4x5",
-      },
-    ],
-  },
-  {
-    date: "2021-02-21",
-    event: "Engaged",
-    title: "I got engaged",
-    description: "I proposed to my girlfriend. She said yes.",
-    icon: "💍",
-    dateFormatOptions: dateFormat.day,
-    photos: [
-      {
-        src: "/changelog/proposal.png",
-        variant: "1x1",
-      },
-      {
-        src: "/changelog/proposal-1.png",
-        variant: "1x1",
-      },
-      {
-        src: "/changelog/proposal-2.png",
-        variant: "1x1",
-      },
-      {
-        src: "/changelog/proposal-3.png",
-        variant: "1x1",
-      },
-    ],
-  },
-  {
-    date: "2021-01-01",
-    event: "Relocate",
-    title: "Return to Turkey",
-    description:
-      "I returned to Turkey to work for Defter as a Software Manager & Lead Developer.",
-    icon: "🇹🇷",
-    dateFormatOptions: dateFormat.month,
-  },
-  {
-    date: "2018-12-01",
-    event: "Relocate",
-    title: "Moved to Montenegro",
-    description: "Accepted an offer from Defter and relocated to Montenegro.",
-    icon: "🇲🇪",
-    dateFormatOptions: dateFormat.month,
-    photos: [
-      {
-        src: "/changelog/montenegro 4x3.png",
-        variant: "4x3",
-      },
-    ],
-  },
-  {
-    date: "2018-10-01",
+    date: "2022-09-15",
     event: "Military Service",
     title: "Short term military service",
     description:
-      "I served in the Turkish Armed Forces for 21 days as a short-term military service.",
+      "I served in the Turkish Armed Forces for 26 days as a short-term military service.",
     icon: "🎖️",
     dateFormatOptions: dateFormat.month,
     photos: [
       {
-        src: "/changelog/asker-1.png",
+        src: "/changelog/asker-1.jpg",
         variant: "1x1",
       },
       {
-        src: "/changelog/asker-2.png",
-        variant: "1x1",
-      },
-      {
-        src: "/changelog/asker-3.png",
-        variant: "1x1",
-      },
-      {
-        src: "/changelog/asker-4.png",
-        variant: "1x1",
-      },
-      {
-        src: "/changelog/asker-5.png",
+        src: "/changelog/asker-2.jpg",
         variant: "1x1",
       },
     ],
   },
   {
-    date: "2015-09-01",
-    event: "First startup",
-    title: "whodidthis.io",
-    description:
-      "A platform that helps people to find out who did what in their projects.",
-    icon: "💡",
-    dateFormatOptions: dateFormat.year,
-  },
-  {
-    date: "2012-08-01",
-    event: "Moved to Istanbul",
-    title: "The big city",
-    description: "Moved to Istanbul to work for Efabrika.",
-    icon: "🚌",
-    photos: [
-      {
-        src: "/changelog/efabrika.png",
-        variant: "1x1",
-      },
-    ],
-  },
-  {
-    date: "2012-01-28",
-    event: "First commit",
-    title: "First commit on GitHub",
-    description: "My open source journey started.",
-    icon: "🎉",
-    dateFormatOptions: dateFormat.day,
-  },
-  {
-    date: "2010-01-01",
-    event: "First Job",
-    title: "My first job as a developer",
-    icon: "💼",
-    dateFormatOptions: dateFormat.month,
-  },
-  {
-    date: "2008-01-01",
+    date: "2016-09-01",
     event: "Education",
-    title: "Drop out from Ege University",
-    description:
-      "I decided to drop out from university to pursue my career in software development.",
+    title: "I started my university education at Medipol University",
+    description: "",
     icon: "🎓",
   },
   {
-    date: "2005-01-01",
-    event: "Education",
-    title: "I started my university education at Ege University",
-    description: "My major was football trainer 😀",
-    icon: "🎓",
-  },
-  {
-    date: "2002-01-01",
-    event: "Football",
-    title: "I started playing football",
+    date: "2012-10-15",
+    event: "Introduction to software",
+    title: "First encounter with software during high school",
     description:
-      "I played football for 6 years. I was actually very good at it.",
-    icon: "⚽",
-  },
+      "I wrote my first for loop in programming class",
+    icon: "🧑‍💻",
+    },
   {
-    date: "1990-01-01",
-    event: "Relocate",
-    title: "A journey to Turkey",
+    date: "2011-05-10",
+    event: "Firs Computer",
+    title: "A Vestel brand laptop.",
     description:
-      "My family moved to Turkey when I was 2 years old. I grew up in Izmir.",
-    icon: "🇹🇷",
-    photos: [
-      {
-        src: "/changelog/family.png",
-        variant: "1x1",
-      },
-    ],
+      "The first day my father and I bought the computer, my brother and our neighbor's kid spilled fruit juice on the computer. 😑",
+    icon: "🧑‍💻",
   },
   {
-    date: "1988-02-10",
+    date: "1997-05-16",
     event: "Born",
-    title: "I was born in 🇧🇬 Bulgaria, Khardzali.",
-    description: "2nd child of the family. I have an older sister.",
+    title: "I was born in 🇹🇷 Kadıköy, İstanbul.",
+    description: "I am the first child of the family and I have a younger brother.",
     icon: "👶🏻",
     dateFormatOptions: dateFormat.day,
     photos: [
       {
-        src: "/changelog/bg.png",
-        variant: "1x1",
-      },
-      {
-        src: "/changelog/bg-2 4x3.png",
+        src: "/changelog/caner.jpg",
         variant: "4x3",
       },
       {
-        src: "/changelog/bg-3 4x3.png",
+        src: "/changelog/caner-2.jpg",
+        variant: "1x1",
+      },
+      {
+        src: "/changelog/caner-3.jpg",
         variant: "4x3",
       },
     ],
@@ -848,28 +301,9 @@ export const changelog = changelogItems.sort(
   (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
 );
 
+//homepage opensource hover projects
 export const projects = [
-  {
-    name: "gider.im (PWA)",
-    githubSlug: "needim/gider.im-pwa",
-    released: "2024-05-26",
-    description: "Privacy focused income & expense tracking app.",
-    logo: <GiderimLogo className="size-10" />,
-    links: [
-      {
-        href: "https://gider.im",
-        label: "Website",
-        icon: IconWorld,
-      },
-      {
-        href: "https://github.com/needim/gider.im-pwa",
-        label: "GitHub",
-        icon: IconGithub,
-      },
-    ],
-    metrics: [] as Array<{ label: string; value: number }>,
-    featured: true,
-  },
+  /* 
   {
     name: "gider.im (Website)",
     githubSlug: "needim/gider.im-website",
@@ -890,73 +324,15 @@ export const projects = [
     ],
     metrics: [],
     featured: true,
-  },
+  },*/
   {
-    name: "smashing.tools",
-    githubSlug: "smashing-tools/smashing.tools",
-    released: "2023-12-25",
-    logo: <IconSmashing className="size-10" />,
-    description: "Curated best starter kits, UI components & resources.",
-    links: [
-      {
-        href: "https://smashing.tools",
-        label: "Website",
-        icon: IconWorld,
-      },
-      {
-        href: "https://github.com/smashing-team/smashing.tools",
-        label: "GitHub",
-        icon: IconGithub,
-      },
-    ],
-    featured: true,
-    metrics: [],
-  },
-
-  {
-    name: "ned.im",
-    githubSlug: "needim/ned.im",
-    released: "2023-01-01",
+    name: "canerucar.tech",
+    githubSlug: "canerucar/caner.ucar",
+    released: "2025-01-01",
     logo: <></>,
     deprecated: true,
     description: "You're currently browsing my personal website.",
     links: [{ href: "/", label: "Website", icon: IconWorld }],
-    featured: false,
-    metrics: [],
-  },
-  {
-    name: "noty",
-    githubSlug: "needim/noty",
-    released: "2023-01-01",
-    logo: <></>,
-    deprecated: true,
-    description:
-      "A dependency-free, notification plugin with no deps. ⛔️ Deprecated.",
-    links: [
-      { href: "/noty", label: "Website", icon: IconWorld },
-      {
-        href: "https://github.com/needim/noty",
-        label: "GitHub",
-        icon: IconGithub,
-      },
-    ],
-    featured: true,
-    metrics: [],
-  },
-  {
-    name: "Kit 2.5D",
-    githubSlug: "needim/Kit25D",
-    released: "2017-11-16",
-    logo: <></>,
-    description:
-      "Creating fake 3D world with 2D colliders and sprites in Unity.",
-    links: [
-      {
-        href: "https://github.com/needim/Kit25D",
-        label: "GitHub",
-        icon: IconGithub,
-      },
-    ],
     featured: false,
     metrics: [],
   },

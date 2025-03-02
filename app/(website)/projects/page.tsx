@@ -17,6 +17,7 @@ export default async function Home() {
     );
     if (repo) {
       project.released = repo.createdAt;
+      /* 
       project.metrics = [
         {
           label: "Stars",
@@ -26,7 +27,7 @@ export default async function Home() {
           label: "Forks",
           value: repo.forkCount,
         },
-      ];
+      ];*/
     }
   });
 
@@ -34,13 +35,15 @@ export default async function Home() {
     <Container className="mt-16">
       <div className="max-w-2xl">
         <h1 className="tracking-tight text-5xl">Projects</h1>
+        {/* 
         <div className="pro text-muted-foreground text-balance">
           <p className="mt-2">
             I've worked on a range of projects over the years—some as hobbies,
             others as proof of concept, and a few to solve my own challenges.
           </p>
         </div>
-
+        */}
+        {/*
         <div className="grid grid-cols-1 gap-4">
           {featuredProjects.map((project, index) => (
             <div
@@ -56,7 +59,7 @@ export default async function Home() {
               <p className="my-3 pr-0 sm:pr-14 text-muted-foreground">
                 {project.description}
               </p>
-              {/* <div className="mt-2 gap-2 flex"></div> */}
+               <div className="mt-2 gap-2 flex"></div> 
               <div className="-mx-3 -mb-3 -mt-1 flex flex-col sm:flex-row gap-4 sm:gap-0 items-start sm:items-center justify-between p-3">
                 <div className="flex gap-2">
                   {project.metrics.map((metric, index) => (
@@ -91,13 +94,14 @@ export default async function Home() {
               </div>
             </div>
           ))}
-        </div>
+        </div>  
+        */}
 
         <p className="mt-10 text-muted-foreground">
           Here are some more projects that I have worked on. You can find the
           complete list of projects on my{" "}
           <a
-            href="https://github.com/needim"
+            href="https://github.com/canerucar"
             className="font-semibold transition-colors"
             target="_blank"
             rel="noreferrer"

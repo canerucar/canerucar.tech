@@ -61,7 +61,7 @@ function MobileNavigation(
 ) {
 	return (
 		<Popover {...props}>
-			<Popover.Button className="group flex items-center px-4 py-2 text-sm font-medium rounded-full">
+			<Popover.Button className="group flex items-center px-4 py-2 text-sm font-medium rounded-full cursor-pointer">
 				Menu
 				<ChevronDownIcon className="ml-3 h-auto w-2 stroke-primary" />
 			</Popover.Button>
@@ -91,7 +91,7 @@ function MobileNavigation(
 						className="fixed inset-x-4 top-8 z-50 origin-top rounded-3xl bg-white p-8 ring-1 ring-zinc-900/5 dark:bg-zinc-900 dark:ring-zinc-800"
 					>
 						<div className="flex flex-row-reverse items-center justify-between">
-							<Popover.Button aria-label="Close menu" className="-m-1 p-1">
+							<Popover.Button aria-label="Close menu" className="-m-1 p-1 cursor-pointer">
 								<CloseIcon className="h-6 w-6 text-zinc-500 dark:text-zinc-400" />
 							</Popover.Button>
 							<h2 className="text-sm font-medium text-zinc-600 dark:text-zinc-400">
@@ -196,7 +196,7 @@ export function Avatar({
 			{...props}
 		>
 			<Image
-				src="https://avatars.githubusercontent.com/needim"
+				src="https://avatars.githubusercontent.com/canerucar"
 				alt=""
 				sizes={large ? "4rem" : "2.25rem"}
 				width="140"

@@ -9,70 +9,58 @@ export const metadata: Metadata = {
 export default function Notes() {
   const desk = [
     {
-      name: "27” 27UN880 4K",
+      name: "27” 27QN880-B 2K",
       brand: "LG",
       category: "Monitor",
       imageSrc: "/stack/monitor.png",
     },
     {
-      name: "C500",
-      brand: "Rapido",
+      name: "Seduna Thunder Pro",
+      brand: "Seduna",
       category: "Chair",
       imageSrc: "/stack/chair.png",
     },
     {
-      name: "White 140x60",
-      brand: "Lagkapten",
-      category: "Table Top",
-      imageSrc: "/stack/desk.png",
+      name: "Magic Keyboard",
+      brand: "Apple",
+      category: "Keyboard",
+      imageSrc: "/stack/keyboard.png",
     },
     {
-      name: "4 x White 60-90cm",
-      brand: "Olov",
-      category: "Table Leg",
-      imageSrc: "/stack/desk-leg.png",
+      name: "Logitech M590",
+      brand: "Logitech Mouse",
+      category: "Mouse",
+      imageSrc: "/stack/mouse.png",
     },
   ];
 
   const everyday = [
     {
-      name: "iPhone 15 Pro 256 GB",
+      name: "iPhone 13 256 GB",
       brand: "Apple",
       category: "Phone",
       imageSrc: "/stack/phone.png",
     },
     {
-      name: "MacBook M3 Pro 14” - 18 GB",
+      name: "MacBook M4 Pro 14” - 24 GB",
       brand: "Apple",
       category: "Laptop",
       imageSrc: "/stack/laptop.png",
     },
     {
-      name: "CC8-19-002",
-      brand: "Samsonite",
-      category: "Bag",
-      imageSrc: "/stack/bag.png",
-    },
-    {
-      name: "Studio 3 Wireless",
-      brand: "Beats",
-      category: "Headphones",
-      imageSrc: "/stack/head.png",
+      name: "Airpods Pro",
+      brand: "Apple",
+      category: "Earphones",
+      imageSrc: "/stack/airpods.png",
     },
   ];
 
   const gaming = [
     {
-      name: "ROG Strix G15",
-      brand: "Asus",
-      category: "Laptop",
+      name: "XBOX Series S",
+      brand: "Microsoft",
+      category: "Gaming Console",
       imageSrc: "/stack/gaming.png",
-    },
-    {
-      name: "Pusat One Shot Pro",
-      brand: "Monster",
-      category: "Mouse",
-      imageSrc: "/stack/gaming-mouse.png",
     },
   ];
 

@@ -5,7 +5,7 @@ import { unstable_cache as cache } from "next/cache";
 import { TwitterApi } from "twitter-api-v2";
 
 const CACHE_DURATION = 3600 * 1.5; // 1.5 hours
-const USE_MOCK_DATA_FOR_DEVELOPMENT = true;
+const USE_MOCK_DATA_FOR_DEVELOPMENT = false;
 const DEFAULT_X_RESPONSE = {
 	data: { public_metrics: { followers_count: 4184 } },
 };
@@ -17,8 +17,8 @@ const DEFAULT_GITHUB_RESPONSE = {
 				totalCount: 31,
 				nodes: [
 					{
-						nameWithOwner: "needim/noty",
-						name: "noty",
+						nameWithOwner: "needim/notyssxxx",
+						name: "notysss",
 						description:
 							"⛔️ DEPRECATED - Dependency-free notification library that makes it easy to create alert - success - error - warning - information - confirmation messages as an alternative the standard alert dialog.",
 						forkCount: 1041,
@@ -57,7 +57,7 @@ const DEFAULT_GITHUB_RESPONSE = {
 					},
 					{
 						nameWithOwner: "needim/termic",
-						name: "termic",
+						name: "termiccccc",
 						description:
 							"Termic is an idea for personal pages and terminal lovers! <3",
 						forkCount: 5,
@@ -206,7 +206,7 @@ const DEFAULT_GITHUB_RESPONSE = {
 				],
 			},
 			followers: {
-				totalCount: 877,
+				totalCount: 82,
 			},
 			contributionsCollection: {
 				contributionCalendar: {
@@ -1921,43 +1921,43 @@ export const getGithubInfo = cache(
 			}
 
 			const query = `
-{
-  viewer {
-    login
-    repositories(
-      first: 20
-      affiliations: OWNER
-      isFork: false
-      orderBy: {field: STARGAZERS, direction: DESC}
-    ) {
-      totalCount
-      nodes {
-        nameWithOwner
-        name
-        description
-        forkCount
-        stargazerCount
-        createdAt
-        updatedAt
-      }
-    }
-    followers {
-      totalCount
-    }
-    contributionsCollection {
-      contributionCalendar {
-        totalContributions
-        weeks {
-          contributionDays {
-            contributionCount
-            date
-          }
-        }
-      }
-    }
-  }
-}
-`;
+			{
+				viewer {
+					login
+					repositories(
+						first: 20
+						affiliations: OWNER
+						isFork: false
+						orderBy: {field: STARGAZERS, direction: DESC}
+					) {
+						totalCount
+						nodes {
+							nameWithOwner
+							name
+							description
+							forkCount
+							stargazerCount
+							createdAt
+							updatedAt
+						}
+					}
+					followers {
+						totalCount
+					}
+					contributionsCollection {
+						contributionCalendar {
+							totalContributions
+							weeks {
+								contributionDays {
+									contributionCount
+									date
+								}
+							}
+						}
+					}
+				}
+			}
+			`;
 
 			console.log("API HIT: github");
 			const res = await fetch("https://api.github.com/graphql", {
