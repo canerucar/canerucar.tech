@@ -218,7 +218,7 @@ const changelogItems: Array<{
         variant: "4x5",
       },
       {
-        src: "/changelog/first-car-1.jpg",
+        src: "/changelog/first-car-1.JPG",
         variant: "4x5",
       },
     ],
@@ -245,7 +245,7 @@ const changelogItems: Array<{
         variant: "1x1",
       },
       {
-        src: "/changelog/asker-1.jpg",
+        src: "/changelog/asker-1.JPG",
         variant: "1x1",
       },
     ],
@@ -290,7 +290,7 @@ const changelogItems: Array<{
         variant: "1x1",
       },
       {
-        src: "/changelog/caner-2.jpg",
+        src: "/changelog/caner-2.JPG",
         variant: "4x3",
       },
     ],
