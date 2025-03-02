@@ -1,14 +1,10 @@
 "use server";
 
-import { TwitterApiRateLimitPlugin } from "@twitter-api-v2/plugin-rate-limit";
 import { unstable_cache as cache } from "next/cache";
-import { TwitterApi } from "twitter-api-v2";
 
 const CACHE_DURATION = 3600 * 1.5; // 1.5 hours
 const USE_MOCK_DATA_FOR_DEVELOPMENT = true;
-const DEFAULT_X_RESPONSE = {
-	data: { public_metrics: { followers_count: 4184 } },
-};
+
 const DEFAULT_GITHUB_RESPONSE = {
 	data: {
 		viewer: {
@@ -1895,18 +1891,6 @@ const DEFAULT_GITHUB_RESPONSE = {
 	},
 };
 
-const rateLimitPlugin = new TwitterApiRateLimitPlugin();
-const client = new TwitterApi(
-	{
-		appKey: process.env.X_API_KEY!,
-		appSecret: process.env.X_API_SECRET!,
-		accessToken: process.env.X_MY_ACCESS_TOKEN!,
-		accessSecret: process.env.X_MY_ACCESS_TOKEN_SECRET!,
-	},
-	{
-		plugins: [rateLimitPlugin],
-	},
-);
 
 export const getGithubInfo = cache(
 	async (): Promise<Externals.Github.ApiResponse> => {
@@ -1983,36 +1967,3 @@ export const getGithubInfo = cache(
 	},
 );
 
-export const getXInfo = cache(
-	async () => {
-		try {
-			// Avoid rate limiting in development
-			// set USE_MOCK_DATA_FOR_DEVELOPMENT false to use real data
-			if (
-				process.env.NODE_ENV === "development" &&
-				USE_MOCK_DATA_FOR_DEVELOPMENT
-			) {
-				return DEFAULT_X_RESPONSE;
-			}
-
-			const currentRateLimitForMe =
-				await rateLimitPlugin.v2.getRateLimit("users/me");
-			console.log("API RATES: X", currentRateLimitForMe);
-
-			console.log("API HIT: X");
-			const user = await client.v2.me({
-				"user.fields": "public_metrics",
-			});
-			console.log("API RESPONSE: X", user);
-
-			return user;
-		} catch (error) {
-			console.error("x api error", error);
-			return DEFAULT_X_RESPONSE;
-		}
-	},
-	["ned-im-x-data"],
-	{
-		revalidate: false,
-	},
-);
