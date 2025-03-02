@@ -214,11 +214,11 @@ const changelogItems: Array<{
     dateFormatOptions: dateFormat.month,
     photos: [
       {
-        src: "/changelog/first-car-1.jpg",
+        src: "/changelog/first-car.jpg",
         variant: "4x5",
       },
       {
-        src: "/changelog/first-car-2.jpg",
+        src: "/changelog/first-car-1.jpg",
         variant: "4x5",
       },
     ],
@@ -241,11 +241,11 @@ const changelogItems: Array<{
     dateFormatOptions: dateFormat.month,
     photos: [
       {
-        src: "/changelog/asker-1.jpg",
+        src: "/changelog/asker.jpg",
         variant: "1x1",
       },
       {
-        src: "/changelog/asker-2.jpg",
+        src: "/changelog/asker-1.jpg",
         variant: "1x1",
       },
     ],
@@ -286,11 +286,11 @@ const changelogItems: Array<{
         variant: "4x3",
       },
       {
-        src: "/changelog/caner-2.jpg",
+        src: "/changelog/caner-1.jpg",
         variant: "1x1",
       },
       {
-        src: "/changelog/caner-3.jpg",
+        src: "/changelog/caner-2.jpg",
         variant: "4x3",
       },
     ],
