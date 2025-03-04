@@ -81,7 +81,7 @@ export default function RootLayout({
           </TooltipProvider>
         </ThemeProvider>
         <Script
-          data-domain="ned.im"
+          data-domain="canerucar.tech"
           src="https://plausible.io/js/script.pageview-props.tagged-events.js"
         />
       </body>
