@@ -19,10 +19,10 @@ export const metadata: Metadata = {
     default: "Caner Uçar",
     template: "Caner Uçar | %s",
   },
-  description: "Developer, software manager, and creator.",
+  description: "Developer",
   openGraph: {
     title: "Caner Uçar",
-    description: "Developer, software manager, and creator.",
+    description: "Developer",
     url: "https://canerucar.tech",
     siteName: "Caner Uçar",
     locale: "en_US",
@@ -82,7 +82,7 @@ export default function RootLayout({
         </ThemeProvider>
         <Script
           data-domain="ned.im"
-          src="https://stats.ned.im/js/script.pageview-props.tagged-events.js"
+          src="https://plausible.io/js/script.pageview-props.tagged-events.js"
         />
       </body>
     </html>

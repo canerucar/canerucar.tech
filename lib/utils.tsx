@@ -60,7 +60,7 @@ export const careerItems = [
   */
   
   {
-    from: '2025 Şubat',
+    from: '2025 February',
     to: 'Present',
     title: "Senior Frontend Developer",
     company: { name: "Linkera", url: "" },
@@ -69,8 +69,8 @@ export const careerItems = [
     ].join("\n"),
   },
   {
-    from: '2024 Ağustos',
-    to: '2025 Ocak',
+    from: '2024 August',
+    to: '2025 January',
     title: "Senior Software Engineer",
     company: { name: "carvak.com", url: "" },
     location: "Istanbul, Turkey",
@@ -83,8 +83,8 @@ export const careerItems = [
     ].join("\n"),
   },
   {
-    from: '2022 Kasım',
-    to: '2024 Ağustos',
+    from: '2022 November',
+    to: '2024 August',
     title: "Frontend Developer",
     company: { name: "n11.com", url: "" },
     location: "Istanbul, Turkey",
@@ -98,8 +98,8 @@ export const careerItems = [
     ].join("\n"),
   },
   {
-    from: '2022 Temmuz',
-    to: '2022 Kasım',
+    from: '2022 July',
+    to: '2022 November',
     title: "Frontend Developer",
     company: { name: "Etstur", url: "" },
     location: "Istanbul, Turkey",
@@ -110,8 +110,8 @@ export const careerItems = [
     ].join("\n"),
   },
   {
-    from: '2022 Ocak',
-    to: '2022 Temmuz',
+    from: '2022 January',
+    to: '2022 July',
     title: "Frontend Developer",
     company: { name: "Appcent", url: null },
     location: "Istanbul, Turkey",
@@ -124,8 +124,8 @@ export const careerItems = [
     ].join("\n"),
   },
   {
-    from: '2020 Ekim',
-    to: '2022 Ocak',
+    from: '2020 October',
+    to: '2022 January',
     title: "Frontend Developer",
     company: { name: "Akinon", url: null },
     location: "Istanbul, Turkey",
@@ -137,8 +137,8 @@ export const careerItems = [
     ].join('\n'),
   },
   {
-    from: '2020 Şubat',
-    to: '2020 Ekim',
+    from: '2020 February',
+    to: '2020 October',
     title: "Frontend Developer & MW Administrator",
     company: { name: "PrimeIT Bilişim A.Ş", url: null },
     location: "Istanbul, Turkey",
@@ -150,8 +150,8 @@ export const careerItems = [
     ].join("\n"),
   },
   {
-    from: '2019 Kasım',
-    to: '2020 Ocak',
+    from: '2019 November',
+    to: '2020 January',
     title: "Intern - Software Developer",
     company: { name: "Skyland A.Ş", url: "" },
     location: "Istanbul, Turkey",
@@ -163,8 +163,8 @@ export const careerItems = [
     ].join('\n'),
   },
   {
-    from: '2017 Ağustos',
-    to: '2017 Eylül',
+    from: '2017 August',
+    to: '2017 September',
     title: "Intern - Network System Technician",
     company: { name: "Seri Bilgi Teknolojileri", url: "" },
     location: "Istanbul, Turkey",
@@ -172,8 +172,8 @@ export const careerItems = [
       "During my short-term university internship, I worked in the company's network system unit.",
   },
   {
-    from: '2014 Eylül',
-    to: '2015 Haziran',
+    from: '2014 September',
+    to: '2015 June',
     title: "Intern - Network System Technician",
     company: { name: "Aras Kargo", url: null },
     location: "Istanbul, Turkey",
