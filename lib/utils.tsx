@@ -224,12 +224,26 @@ const changelogItems: Array<{
     ],
   },
   {
-    date: "2024-05-06",
+    date: "2025-03-05",
     event: "New website",
     title: "canerucar.tech",
     description: "Finally, I have published own personal website.",
     icon: "🚀",
     dateFormatOptions: dateFormat.day,
+  },
+  {
+    date: "2024-10-12",
+    event: "Electric bike",
+    title: "I bought my dad an electric bike",
+    description: "",
+    icon: "🏍️",
+    dateFormatOptions: dateFormat.day,
+    photos: [
+      {
+        src: "/changelog/bike.JPG",
+        variant: "4x3",
+      },
+    ],
   },
   {
     date: "2022-09-15",
