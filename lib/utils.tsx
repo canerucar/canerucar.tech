@@ -63,7 +63,7 @@ export const careerItems = [
     from: '2025 February',
     to: 'Present',
     title: "Senior Frontend Developer",
-    company: { name: "Linkera", url: "" },
+    company: { name: "Linktera", url: "" },
     location: "Istanbul, Turkey",
     description: [
     ].join("\n"),
@@ -83,7 +83,7 @@ export const careerItems = [
     ].join("\n"),
   },
   {
-    from: '2022 November',
+    from: '2022 October',
     to: '2024 August',
     title: "Frontend Developer",
     company: { name: "n11.com", url: "" },
@@ -98,20 +98,8 @@ export const careerItems = [
     ].join("\n"),
   },
   {
-    from: '2022 July',
-    to: '2022 November',
-    title: "Frontend Developer",
-    company: { name: "Etstur", url: "" },
-    location: "Istanbul, Turkey",
-    description: [
-      "I took part in the HotelAgent and Operation teams within Etstur. I took part in the development of hotels' websites, reservation systems, and the admin panels they use. I had the opportunity to work on the bug fix and features development side of the projects.",
-      "",
-      "HTML, CSS, SASS, Bootstrap, JavaScript, jQuery, AJAX, Jira, Bitbucket, Figma, Git",
-    ].join("\n"),
-  },
-  {
     from: '2022 January',
-    to: '2022 July',
+    to: '2022 August',
     title: "Frontend Developer",
     company: { name: "Appcent", url: null },
     location: "Istanbul, Turkey",
